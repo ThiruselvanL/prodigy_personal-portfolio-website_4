@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of THIRUSELVAN">
+    <title>THIRUSELVAN| Portfolio</title>
+    <!-- Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-100 dark:bg-gray-900 transition-all duration-300">
+
+    <!-- Navigation Bar -->
+    <header class="bg-white dark:bg-gray-800 shadow-lg fixed w-full z-10 top-0">
+        <nav class="container mx-auto p-4 flex justify-between items-center">
+            <div class="text-2xl font-bold text-gray-800 dark:text-white">THIRUSELVAN</div>
+            <ul class="flex space-x-4">
+                <li><a href="about.html" class="hover:text-blue-500 dark:hover:text-blue-400">About</a></li>
+                <li><a href="contact.html" class="hover:text-blue-500 dark:hover:text-blue-400">Contact</a></li>
+            </ul>
+            <button id="theme-toggle" class="bg-gray-200 dark:bg-gray-700 p-2 rounded-md">🌙</button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="h-screen flex flex-col justify-center items-center text-center bg-cover bg-fixed relative"
+        style="background-image: url('https://wallpaperheart.com/wp-content/uploads/2018/07/professional-background-images-for-ppt-8.jpg');">
+        <h1 class="text-5xl font-extrabold text-white mb-4">Hi, I'm THIRUSELVAN</h1>
+        <p class="text-xl text-gray-300">As a dedicated mechanical engineering student with a keen interest in data science, <br>
+            I am passionate about integrating engineering principles with data-driven insights.<br> My education at Velammal Engineering College has provided me with a solid foundation <br>in engineering concepts,
+            while my self-driven pursuit of data science has equipped me with the analytical skills<br> to tackle complex problems.</p>
+    </section>
+
+    <!-- About Section with Profile Picture -->
+    <section id="about" class="container mx-auto py-16 text-center">
+        <h2 class="text-4xl font-bold mb-4">About Me</h2>
+        <p class="text-gray-700 dark:text-gray-300 mb-6">I am a passionate web developer with experience in building high-quality websites and applications.</p>
+        
+        <!-- Profile Picture -->
+        <img src="D:\future intren\portfolio\thiru Image 2024-10-24 at 15.47.41_e8c5314a.jpg " alt="Profile picture of THIRUSELVAN" class="mt-6 mx-auto rounded-full shadow-lg w-48 h-48 object-cover">
+        
+        <div class="mt-6">
+            <a href="about.html" class="px-6 py-3 bg-gray-800 text-white rounded-full hover:bg-gray-900">More About Me</a>
+        </div>
+    </section>
+
+    <!-- Portfolio Preview Section -->
+    <section id="portfolio" class="bg-gray-50 dark:bg-gray-800 py-16">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-8">My Projects</h2>
+            <div class="grid grid-cols-2 sm:grid-cols-1 lg:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div class="bg-white dark:bg-gray-700 shadow-lg rounded-lg overflow-hidden">
+                    
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold">Project One</h3>
+                        <p class="text-gray-600 dark:text-gray-400">A web app built with React and Node.js</p>
+                        <a href="bahtml.html">View Project</a>
+                    </div>
+                </div>
+                <!-- Repeat similar for more projects -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white p-6 text-center">
+        <p>&copy; THIRUSELVAN 2024. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript for Dark Mode -->
+    <script src="scripts/main.js"></script>
+</body>
+</html>
